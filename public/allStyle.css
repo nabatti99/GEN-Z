@@ -1,0 +1,63 @@
+:root {
+  --ct-dark-blue: #003049;
+  --ct-orange: #f77f00;
+  --ct-orange-light: #fcbf49;
+  --ct-pink: #d62828;
+
+  --ct-orange-active: #e85d04;
+  --ct-pink-active: #9d0208;
+
+  --ct-orange-hover-light: rgba(0, 48, 73, 0.05);
+}
+
+.text-orange {
+  color: var(--ct-orange) !important;
+}
+
+.text-orange-light {
+  color: var(--ct-orange-light) !important;
+}
+
+.text-dark-blue {
+  color: var(--ct-dark-blue) !important;
+}
+
+.text-pink {
+  color: var(--ct-pink) !important;
+}
+
+.bg-orange {
+  background-color: var(--ct-orange) !important;
+}
+
+.bg-dark-blue {
+  background-color: var(--ct-dark-blue) !important;
+}
+
+.btn-orange {
+  color: white;
+  background-color: var(--ct-orange);
+  border-color: var(--ct-orange);
+}
+
+.btn-orange:hover {
+  color: white;
+  background-color: var(--ct-orange-active);
+  border-color: var(--ct-orange-active);
+}
+
+.btn-pink {
+  color: white;
+  background-color: var(--ct-pink);
+  border-color: var(--ct-pink);
+}
+
+.btn-pink:hover {
+  color: white;
+  background-color: var(--ct-pink-active);
+  border-color: var(--ct-pink-active);
+}
+
+.border-orange {
+  border-color: var(--ct-orange) !important;
+}

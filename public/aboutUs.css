@@ -1,0 +1,48 @@
+.organize-card {
+  transition: 0.3s;
+}
+
+.organize-card:hover {
+  background-color: var(--ct-orange-hover-light);
+}
+
+.organize-area {
+  width: 200px;
+  height: 200px;
+}
+
+.organize-img-area {
+  width: 180px;
+  height: 180px;
+}
+
+.organize-img-area img {
+  min-width: 180px;
+  min-height: 180px;
+}
+
+.helper-area {
+  width: 350px;
+  height: 350px;
+}
+
+.helper-img-area {
+  width: 314px;
+  height: 314px;
+}
+
+.helper-img-area img {
+  min-width: 314px;
+  min-height: 314px;
+}
+
+#viewHelperProfile {
+  transition: 0.2s;
+  border-width: 0px;
+}
+
+#viewHelperProfile:hover {
+  border-bottom: solid;
+  border-color: var(--ct-orange);
+  border-width: 3px;
+}

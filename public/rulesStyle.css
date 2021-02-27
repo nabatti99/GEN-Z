@@ -1,0 +1,82 @@
+body {
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 300px;
+  background-size: cover;
+}
+
+#header {
+  background: url(assets/backgoround-dot.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+
+.rect-container {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#rect1 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 250px;
+  right: 0;
+  transform: rotate(45deg) translate(65%, 0%);
+}
+
+#circle1 {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  top: 900px;
+  right: -400px;
+  opacity: 0.05;
+}
+
+#section1-bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#imgFooter {
+  background: url(assets/wave.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#section1 {
+  background: url(assets/01.svg);
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: 30px;
+  background-size: 130px;
+}
+
+#section2 {
+  background: url(assets/02.svg);
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: 30px;
+  background-size: 170px;
+}
+
+#section3 {
+  background: url(assets/03.svg);
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: 30px;
+  background-size: 170px;
+}
+
+img#illustration {
+  width: 100%;
+  height: auto;
+}
