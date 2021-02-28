@@ -4,18 +4,58 @@
   background-image: url(assets/talkshow.jpg);
   background-position: center;
   background-size: cover;
-  background-color: var(--ct-orange);
+  background-color: var(--ct-orange-dark);
   background-blend-mode: multiply;
 }
 
-#KhanhVyImg {
-  width: 300px;
-  margin-left: 100px;
-  margin-right: 200px;
+#speakerArea {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
-#img-bg {
-  background: none;
+.guest-area {
+  width: 300px;
+  height: 300px;
+}
+
+.rect-container {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#circle1 {
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  top: 200px;
+  right: -400px;
+  opacity: 0.2;
+}
+
+#event {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 270px;
+  right: 10%;
+}
+
+#event2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 80px;
+  left: 8%;
+}
+
+#chronometer {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 400px;
+  left: 10%;
 }
 
 @media (min-width: 768px) {
@@ -25,15 +65,4 @@
     background-position: top;
     background-size: contain;
   }
-}
-
-#introduction {
-  background-image: url("https://picsum.photos/800/800");
-}
-
-.bg-image {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: darken;
 }
