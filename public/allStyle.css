@@ -59,6 +59,27 @@
   border-color: var(--ct-pink-active);
 }
 
+.btn-footer {
+  color: white;
+  background-color: transparent;
+  transition: 0.2s;
+}
+
+.btn-footer:hover {
+  color: var(--ct-orange-light);
+}
+
+.btn-outline-primary {
+  color: var(--ct-orange);
+  border-color: var(--ct-orange);
+}
+
+.btn-outline-primary:hover {
+  color: white;
+  background-color: var(--ct-orange-active);
+  border-color: var(--ct-orange-active);
+}
+
 .border-orange {
   border-color: var(--ct-orange) !important;
 }

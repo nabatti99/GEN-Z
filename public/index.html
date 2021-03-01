@@ -19,14 +19,13 @@
   <div class="rect-container position-absolute overflow-hidden">
     <div class="position-relative">
       <img id="rect1" class="d-none d-md-block" src="assets/rect1.svg" />
-      <img id="rect2" src="assets/rect2.svg" />
-      <img id="circle1" src="assets/circle1.svg" />
-      <img id="triangle1" src="assets/triangle1.svg" />
-      <img id="rect3" src="assets/rect3.svg" />
-      <img id="circle2" src="assets/circle2.svg" />
-      <img id="circle3" src="assets/pattern-4.png" />
+      <img id="rect2" class="d-none d-md-block" src="assets/rect2.svg" />
+      <img id="circle1" class="d-none d-md-block" src="assets/circle1.svg" />
+      <img id="triangle1" class="d-none d-md-block" src="assets/triangle1.svg" />
+      <img id="rect3" class="d-none d-md-block" src="assets/rect2.svg" />
+      <img id="circle2" class="d-none d-md-block" src="assets/circle2.svg" />
       <img id="rect4" class="d-none d-md-block" src="assets/rect1.svg" />
-      <img id="triangle2" src="assets/triangle1.svg" />
+      <img id="triangle2" class="d-none d-md-block" src="assets/triangle1.svg" />
     </div>
   </div>
 
@@ -52,7 +51,7 @@
           <li class="nav-item">
             <a href="rules.html" class="nav-link" aria-current="page">Thể lệ thi</a>
           </li>
-          <li class="nav-item ms-auto">
+          <li class="nav-item">
             <a href="aboutUs.html" class="nav-link" aria-current="page">Về chúng tôi</a>
           </li>
         </ul>
@@ -60,13 +59,30 @@
     </div>
   </nav>
 
-  <section id="header" class="container-xxl animate__animated animate__fadeIn">
+  <section class="container-xxl animate__animated animate__fadeIn">
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <img class="me-3" src="assets/logo_BK.png" width="40px" alt="Logo BK" />
+        <img class="me-3" src="assets/Logo HSV.png" width="40px" alt="Logo BK" />
+        <img src="assets/logo_Hugo.png" width="40px" alt="Logo BK" />
+      </div>
+    </div>
+  </section>
+
+  <section id="header" class="container-xxl">
     <div class="row justify-content-center text-dark text-center">
       <div class="col-auto">
-        <img src="assets/Logo short.svg" width="150px" height="150px" alt="" srcset="">
+        <img class="animate__animated animate__fadeInLeft" src="assets/Logo short.svg" width="150px" height="150px" alt="" srcset="">
         <h2 class="display-3 text-orange mt-1 animate__animated animate__bounceIn">Generation Z</h2>
-        <h5 class="text-secondary text-uppercase">The english race</h5>
-        <a href="#" class="btn btn-orange mt-4 animate__animated animate__fadeInDown">Đăng kí ngay</a>
+        <h5 class="text-secondary text-uppercase animate__animated animate__fadeIn">The english race</h5>
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <a href="#timeAndPlace" class="btn btn-outline-primary mt-4 animate__animated animate__fadeInDown">Chi tiết</a>
+          </div>
+          <div class="col-auto">
+            <a href="#" class="btn btn-orange mt-4 animate__animated animate__fadeInDown">Đăng kí thi</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -89,6 +105,30 @@
     </section>
   </div>
 
+  <section id="speakerArea" class="container-xxl">
+    <div class="row">
+      <div class="col-lg-7 col-md-6 col-12 animate__animated animate__fadeInLeft">
+        <h5 class="text-dark-blue">Speaking with GEN-Z</h5>
+        <h1 class="fw-bolder text-orange">Sống thật với thế giới và khẳng định bản thân</h1>
+        <h6 class="text-muted mb-4 text-uppercase">Talkshow</h6>
+        <p>Giúp sinh viên có động lực học tiếng Anh, động lực sống, phát triển bản thân. Thông qua đó, giới thiệu rõ hơn về cuộc thi GEN Z cho các bạn sinh viên.</p>
+        <a id="viewHelperProfile" href="#" class="text-decoration-none fw-bolder text-pink"> <span class="me-1">Xem profile</span> <i class="far fa-arrow-right"></i></a>
+      </div>
+
+      <div class="col-lg-5 col-md-6 col-12 animate__animated animate__fadeInUp">
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <div class="guest-area position-relative">
+              <img class="position-absolute top-0 start-0 w-100 h-100" src="assets/guestFrame.svg" alt="GuestFrame" />
+              <img class="position-absolute top-0 start-0 w-100 h-100" src="assets/KhanhVy.png" alt="Khanh Vy" />
+              <img class="position-absolute top-0 start-0 w-100 h-100" src="assets/guestFrameOverlay.svg" alt="GuestFrame" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <div id="section23-bg">
     <div class="container-xxl my-5">
       <section class="row justify-content-center">
@@ -98,13 +138,15 @@
     
         <div class="row justify-content-center align-items-stretch g-lg-4 g-md-2">
   
-          <div class="col-lg-5 col-md-2 col-12 animate__animated animate__fadeIn">
+          <div class="col-lg-3 col-md-2 col-12 animate__animated animate__fadeIn">
             <article class="card bg-transparent border-primary p-4 h-100">
-              <div class="card-body">
-                <div class="row align-items-center">
+              <div class="card-body p-0">
+                <div class="row justify-content-center mb-3">
                   <div class="col-auto">
                     <i class="fas fa-angle-double-up fa-6x" style="color: var(--bs-primary);"></i>
                   </div>
+                </div>
+                <div class="row justify-content-center">
                   <div class="col">
                     <p class="card-text text-primary">Tạo cơ hội cho sinh viên phát triển các kỹ năng sống, học tập và hội nhập trong thời đại toàn cầu hóa cũng như đi đôi với mục đích của sinh viên 5 tốt.</p>
                   </div>
@@ -113,13 +155,15 @@
             </article>
           </div>
   
-          <div class="col-lg-5 col-md-2 col-12 animate__animated animate__fadeIn">
+          <div class="col-lg-3 col-md-2 col-12 animate__animated animate__fadeIn">
             <article class="card bg-transparent border-success p-4 h-100">
-              <div class="card-body">
-                <div class="row align-items-center">
+              <div class="card-body p-0">
+                <div class="row justify-content-center mb-3">
                   <div class="col-auto">
                     <i class="fas fa-link fa-6x" style="color: var(--bs-green);"></i>
                   </div>
+                </div>
+                <div class="row justify-content-center">
                   <div class="col">
                     <p class="card-text text-success">Tạo được mối liên kết giữa các sinh viên trên địa bàn thành phố Đà Nẵng, đặc biệt giúp các sinh viên thiết lập được mối quan hệ hiểu biết, gắn bó hơn qua cuộc thi.</p>
                   </div>
@@ -128,13 +172,15 @@
             </article>
           </div>
   
-          <div class="col-lg-5 col-md-2 col-12 animate__animated animate__fadeIn">
+          <div class="col-lg-3 col-md-2 col-12 animate__animated animate__fadeIn">
             <article class="card bg-transparent border-danger p-4 h-100">
-              <div class="card-body">
-                <div class="row align-items-center">
+              <div class="card-body p-0">
+                <div class="row justify-content-center mb-3">
                   <div class="col-auto">
                     <i class="fas fa-laugh-wink fa-6x" style="color: var(--bs-danger);"></i>
                   </div>
+                </div>
+                <div class="row justify-content-center">
                   <div class="col">
                     <p class="card-text text-danger">Phát triển một sân chơi tiếng anh thú vị và đầy kiến thức cho các sinh viên.</p>
                   </div>
@@ -143,13 +189,15 @@
             </article>
           </div>
   
-          <div class="col-lg-5 col-md-2 col-12 animate__animated animate__fadeIn">
+          <div class="col-lg-3 col-md-2 col-12 animate__animated animate__fadeIn">
             <article class="card bg-transparent border-orange p-4 h-100">
-              <div class="card-body">
-                <div class="row align-items-center">
+              <div class="card-body p-0">
+                <div class="row justify-content-center mb-3">
                   <div class="col-auto">
                     <i class="fas fa-burn fa-6x text-orange"></i>
                   </div>
+                </div>
+                <div class="row justify-content-center">
                   <div class="col">
                     <p class="card-text text-orange"> Cuộc thi là bàn đạp nhằm giúp người tham gia có động lực hơn để tham gia các cuộc thi cấp thành phố và quốc gia.</p>
                   </div>
@@ -398,9 +446,10 @@
 
   </section>
 
-  <section id="helperArea" class="container-xxl py-5">
+  <section id="helperArea" class="container-xxl pb-5">
+
     <div class="row mt-5">
-      <div class="col-lg-5 col-md-6 col-12 animate__animated animate__fadeInUp">
+      <div class="col-lg-5 col-md-6 col-12 animate__animated animate__fadeInUp mb-4 mb-md-0">
         <div class="row justify-content-center">
           <div class="col-auto">
             <div class="guest-area position-relative">
@@ -412,17 +461,19 @@
         </div>
       </div>
 
-      <div class="col-lg-7 col-12 animate__animated animate__fadeInRight">
-        <h5 class=" mb-3">Cố vấn chương trình</h5>
+      <div class="col-lg-7 col-md-6 col-12 animate__animated animate__fadeInRight">
+        <h5 class="text-muted">Cố vấn chương trình</h5>
         <h2 class="fw-bolder mb-2">Dr.John Carr</h2>
         <h6 class="text-muted mb-4">Ph. D, California, U.S</h6>
-        <p>Ông nhận bằng tiến sĩ tại Đại học <em>California, Berkeley (UCB)</em>, về <em>Phương pháp luận Nghiên cứu và Đánh giá Giáo dục</em>. Ông đã làm việc trong 13 năm tại hai khu học chánh của thành phố với tư cách là <em>Giám đốc dữ liệu học sinh và đánh giá chương trình</em>. Sau đó, ông làm việc cho một tổ chức giáo dục Hoa Kỳ về tổ chức hội thảo cho giáo viên, viết sách về <em>“Cách dạy hiệu quả cho học sinh mới làm quen với tiếng Anh"</em> và ông đã giảng dạy lý thuyết tiếp thu ngôn ngữ thứ hai trong bốn năm tại <em>UCB</em>.</p>
-        <a id="viewClubProfile" href="https://www.facebook.com/HUGOClub" class="text-decoration-none fw-bolder text-orange"> <span class="me-2">Xem Profile</span> <i class="far fa-arrow-right"></i></a>
+        <p>Ông nhận bằng tiến sĩ tại Đại học <em>California, Berkeley (UCB)</em>, về <em>Phương pháp luận Nghiên cứu và Đánh giá Giáo dục</em>.</p>
+        <p>Ông đã làm việc trong 13 năm tại hai khu học chính của thành phố với tư cách là <em>Giám đốc dữ liệu học sinh và đánh giá chương trình</em></p>
+        <p>Sau đó, ông làm việc cho một tổ chức giáo dục Hoa Kỳ về tổ chức hội thảo cho giáo viên, viết sách về <em>“Cách dạy hiệu quả cho học sinh mới làm quen với tiếng Anh"</em>.</p>
+        <p>ông đã giảng dạy lý thuyết tiếp thu ngôn ngữ thứ hai trong bốn năm tại <em>UCB</em>.</p>
       </div>\
     </div>
   </section>
 
-  <section id="prizes" class="position-relative bg-dark-blue overflow-hidden animate__animated animate__fadeIn">
+  <section id="prizes" class="position-relative bg-dark-blue overflow-hidden">
     <img id="giftbox1" src="assets/giftbox2.svg" alt="giftbox">
     <img id="giftbox2" src="assets/giftbox.svg" alt="giftbox">
     <img id="fireworks1" src="/assets/fireworks.svg" alt="fireworks">
@@ -436,7 +487,7 @@
         <div id="prize2" class="col-auto prize2-bg-color px-3 position-relative">
           <div class="position-absolute bottom-100 start-50 translate-middle-x">
             <div class="row justify-content-center">
-              <div class="col-auto rounded-circle bg-transparent position-relative">
+              <div class="col-auto rounded-circle bg-transparent position-relative animate__animated animate__fadeInDown">
                 <i class="fas fa-trophy fa-5x prize2-color"></i>
                 <span class="prizes-text">2</span>
               </div>
@@ -456,7 +507,7 @@
 
           <div class="position-absolute bottom-100 start-50 translate-middle-x">
             <div class="row justify-content-center">
-              <div class="col-auto rounded-circle bg-transparent position-relative">
+              <div class="col-auto rounded-circle bg-transparent position-relative animate__animated animate__fadeInDown">
                 <i class="fas fa-trophy fa-6x prize1-color"></i>
                 <span class="prizes-text">1</span>
               </div>
@@ -472,7 +523,7 @@
         <div id="prize3" class="col-auto prize3-bg-color px-3 position-relative">
           <div class="position-absolute bottom-100 start-50 translate-middle-x">
             <div class="row justify-content-center">
-              <div class="col-auto rounded-circle bg-transparent position-relative">
+              <div class="col-auto rounded-circle bg-transparent position-relative animate__animated animate__fadeInDown">
                 <i class="fas fa-trophy fa-4x prize3-color"></i>
                 <span class="prizes-text">3</span>
               </div>
@@ -498,7 +549,7 @@
     </div>
   </section>
 
-  <section id="FAQ" class="bg-dark-blue text-light pb-5 animate__animated animate__fadeIn">
+  <section id="FAQ" class="bg-dark-blue text-light pb-5">
     <div class="container-xxl">
       <h3>Các Thông Tin Về Chương Trình</h3>
 
@@ -552,10 +603,41 @@
           <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionParent">
             <div class="accordion-body">
               <p>Mọi chi tiết xin liên hệ</p>
-              <ul>
-                <li>Email: <strong>hugoclub.dut@gmail.com</strong></li>
-                <li>Fanpage: <a href="https://www.facebook.com/HUGOClub" class="text-decoration-none">https://www.facebook.com/HUGOClub</a></li>
-              </ul>
+
+              <div class="row gx-2">
+                <div class="col-auto">
+                  <div class="small-icon-size">
+                    <i class="fas fa-mobile"></i>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <p><strong>Trần Quốc Tuấn:</strong> <strong class="text-orange-light">(+84) 82 451 00 46</strong></p>
+                  <p><strong>Phạm Thị Bích Trâm:</strong> <strong class="text-orange-light">(+84) 917 740 087</strong></p>
+                </div>
+              </div>
+
+              <div class="row gx-2">
+                <div class="col-auto">
+                  <div class="small-icon-size">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <p><strong>theenglishracegenz@gmail.com</strong></p>
+                </div>
+              </div>
+
+              <div class="row gx-2">
+                <div class="col-auto">
+                  <div class="small-icon-size">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <p><strong>54 Nguyen Luong Bang Street, Lien Chieu District,
+                    Danang City</strong></p>
+                </div>
+              </div>
             </div>
           </div>
       </div>
@@ -563,7 +645,7 @@
     </div>
   </section>
 
-  <section id="sponsor" class="bg-dark-blue py-5 text-light animate__animated animate__fadeIn">
+  <section id="sponsor" class="bg-dark-blue py-5 text-light">
     <div class="container-xxl">
       <div class="row justify-content-center mt-4 mb-3">
         <div class="col-auto">
@@ -575,7 +657,7 @@
         <div class="col-lg-3 col-md-4 col-12 mb-3">
           <div class="row justify-content-center">
             <div class="col-auto">
-              <img src="/assets/logo_Hugo.png" alt="logo_BK">
+              <img class="animate__animated animate__fadeIn" src="/assets/logo_BK.png" alt="logo_BK">
             </div>
           </div>
         </div>
@@ -583,7 +665,15 @@
         <div class="col-lg-3 col-md-4 col-12 mb-3">
           <div class="row justify-content-center">
             <div class="col-auto">
-              <img class="" src="/assets/logo_BK.png" alt="logo_BK">
+              <img class="animate__animated animate__fadeIn" src="/assets/Logo HSV.png" alt="logo_HSV">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-12 mb-3">
+          <div class="row justify-content-center">
+            <div class="col-auto">
+              <img class="animate__animated animate__fadeIn" src="/assets/logo_Hugo.png" alt="logo_BK">
             </div>
           </div>
         </div>
@@ -599,7 +689,7 @@
         <div class="col-lg-3 col-md-4 col-12">
           <div class="row justify-content-center">
             <div class="col-auto">
-              <img class="" src="/assets/logo_BK.png" alt="logo_BK">
+              <img class="animate__animated animate__fadeIn" src="/assets/logo_BK.png" alt="logo_BK">
             </div>
           </div>
         </div>
@@ -607,9 +697,72 @@
     </div>
   </section>
 
-  <section class="bg-dark-blue text-light py-3 border-top">
+  <section class="position-relative bg-dark-blue text-light py-3 border-top">
     <div class="container-xxl">
-      <span>Generation Z - The English Race <i class="fal fa-copyright"></i> 2021</span>
+      <div class="row align-items-stretch justify-content-between mt-3">
+        <div class="col-lg-6 col-md-7 col-12">
+          <h6 class="text-muted mb-4">Liên hệ với chúng tôi</h6>
+          <div class="row gx-2">
+            <div class="col-auto">
+              <div class="small-icon-size">
+                <i class="fas fa-mobile"></i>
+              </div>
+            </div>
+            <div class="col-auto">
+              <p><strong>Trần Quốc Tuấn:</strong> <strong class="text-orange-light">(+84) 82 451 00 46</strong></p>
+              <p><strong>Phạm Thị Bích Trâm:</strong> <strong class="text-orange-light">(+84) 917 740 087</strong></p>
+            </div>
+          </div>
+  
+          <div class="row gx-2">
+            <div class="col-auto">
+              <div class="small-icon-size">
+                <i class="fas fa-envelope"></i>
+              </div>
+            </div>
+            <div class="col-auto">
+              <p><strong>theenglishracegenz@gmail.com</strong></p>
+            </div>
+          </div>
+  
+          <div class="row gx-2">
+            <div class="col-auto">
+              <div class="small-icon-size">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+            </div>
+            <div class="col-auto">
+              <p><strong>54 Nguyen Luong Bang Street, Lien Chieu District,
+                Danang City</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="row h-100 align-items-center flex-column">
+            <div class="col-auto">
+              <div class="row my-4">
+                <div class="col-auto">
+                  <img src="assets/Logo white.svg" height="50px">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-auto">
+                  <a class="btn btn-footer" href="https://www.facebook.com/HUGOClub"><i class="fab fa-facebook fa-2x"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-auto">
+          <span>Generation Z - The English Race <i class="fal fa-copyright"></i> 2021</span>
+        </div>
+      </div>
     </div>
   </section>
 </body>

@@ -24,41 +24,55 @@ body {
   top: 100px;
   right: 0;
   transform: rotate(45deg) translate(65%, 0%);
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
 }
 
 #rect2 {
   position: absolute;
   width: 400px;
   height: 400px;
-  top: 700px;
+  top: 740px;
   left: -100px;
+
+  animation-name: fadeInLeft;
+  animation-duration: 2s;
 }
 
 #circle1 {
   position: absolute;
   width: 350px;
   height: 350px;
-  top: 1100px;
+  top: 980px;
   right: -150px;
   opacity: 0.2;
+
+  animation-name: slideInRight;
+  animation-duration: 2s;
 }
 
 #triangle1 {
   position: absolute;
   width: 350px;
   height: 350px;
-  top: 1750px;
+  top: 2140px;
   left: 150px;
   opacity: 0.1;
+
+  animation-name: slideInLeft;
+  animation-duration: 2s;
 }
 
 #rect3 {
   position: absolute;
   width: 500px;
   height: 300px;
-  top: 1850px;
+  top: 2270px;
   right: -40px;
   opacity: 0.2;
+  animation-name: slideInRight;
+  animation-duration: 2s;
 }
 
 #rect4 {
@@ -68,23 +82,21 @@ body {
   top: 3600px;
   left: -350px;
   transform: rotate(45deg) translate(65%, 0%);
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
 }
 
 #circle2 {
   position: absolute;
   width: 1000px;
   height: 1000px;
-  top: 2800px;
+  top: 3130px;
   right: -400px;
   opacity: 0.05;
-}
 
-#circle3 {
-  position: absolute;
-  width: 1000px;
-  top: 3300px;
-  left: -400px;
-  opacity: 1;
+  animation-name: slideInRight;
+  animation-duration: 3s;
 }
 
 #figureShadow1 {
@@ -94,13 +106,16 @@ body {
   top: 100px;
   left: 0;
   transform: rotate(45deg) translate(-65%, 0%);
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
 }
 
 #triangle2 {
   position: absolute;
   width: 350px;
   height: 350px;
-  top: 2750px;
+  top: 4600px;
   right: 150px;
   transform: rotate(180deg);
   opacity: 0.1;
@@ -119,6 +134,16 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90vw;
+}
+
+#speakerArea {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.guest-area {
+  width: 400px;
+  height: 400px;
 }
 
 #section23-bg {
@@ -239,12 +264,19 @@ body {
   color: #d98c59;
 }
 
+.small-icon-size {
+  min-width: 20px;
+}
+
 #fireworks2 {
   position: absolute;
   top: -75px;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0.4;
+
+  animation-name: zoomIn;
+  animation-duration: 1.5s;
 }
 
 #fireworks2 > img {
@@ -262,6 +294,9 @@ body {
   top: 280px;
   right: 250px;
   width: 100px;
+
+  animation-name: fadeInRight;
+  animation-duration: 2s;
 }
 
 #giftbox2 {
@@ -269,6 +304,12 @@ body {
   top: 630px;
   right: 50px;
   width: 200px;
+
+  opacity: 0;
+  animation-name: fadeInRight;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
 }
 
 #fireworks1 {
@@ -276,6 +317,9 @@ body {
   top: 50px;
   left: 50px;
   width: 300px;
+
+  animation-name: zoomIn;
+  animation-duration: 1s;
 }
 
 #trophy {
@@ -283,4 +327,10 @@ body {
   top: 650px;
   left: 240px;
   width: 80px;
+
+  opacity: 0;
+  animation-name: fadeInLeft;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
 }
