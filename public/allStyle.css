@@ -80,6 +80,43 @@
   border-color: var(--ct-orange-active);
 }
 
+.cs-btn-text-opacity {
+  transition: 0.2s;
+  padding-bottom: 0.25rem;
+  border-width: 0px;
+}
+
+.cs-btn-text-opacity:hover {
+  border-bottom: solid;
+  border-width: 3px;
+}
+
+.cs-btn-text-opacity.btn-orange {
+  border-color: var(--ct-orange);
+  color: var(--ct-orange);
+  background-color: transparent;
+}
+
+.cs-btn-text-opacity.btn-pink {
+  border-color: var(--ct-pink);
+  color: var(--ct-pink);
+  background-color: transparent;
+}
+
+.cs-btn-more-information {
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+.cs-btn-more-information:hover {
+  opacity: 1;
+}
+
+.more-information-area {
+  animation-name: fadeInDown;
+  animation-duration: 0.5s;
+}
+
 .border-orange {
   border-color: var(--ct-orange) !important;
 }

@@ -12,6 +12,22 @@
   border-color: var(--ct-orange);
 }
 
+#socialMediaDepartment .organize-card:hover {
+  border-color: var(--ct-orange);
+}
+
+#contentDepartment .organize-card:hover {
+  border-color: var(--ct-pink);
+}
+
+#humanResourcesDepartment .organize-card:hover {
+  border-color: var(--ct-dark-blue);
+}
+
+#eventPlanningDepartment .organize-card:hover {
+  border-color: var(--bs-success);
+}
+
 .organize-area {
   width: 200px;
   height: 200px;
@@ -55,17 +71,6 @@
 .club-img-area img {
   min-width: 314px;
   min-height: 314px;
-}
-
-#viewClubProfile {
-  transition: 0.2s;
-  border-width: 0px;
-}
-
-#viewClubProfile:hover {
-  border-bottom: solid;
-  border-color: var(--ct-orange);
-  border-width: 3px;
 }
 
 #btn-toggle-social-media.collapsed {
@@ -119,6 +124,25 @@
 #btn-toggle-event-planning {
   border-color: var(--bs-success);
   color: var(--bs-success);
+  opacity: 1;
+  transition: 0.3s;
+  border-bottom: solid;
+  border-width: 5px;
+}
+
+#btn-toggle-human-resources.collapsed {
+  opacity: 0.3;
+  border-color: transparent;
+}
+
+#btn-toggle-human-resources.collapsed:hover {
+  opacity: 0.4;
+  border-color: transparent;
+}
+
+#btn-toggle-human-resources {
+  border-color: var(--ct-dark-blue);
+  color: var(--ct-dark-blue);
   opacity: 1;
   transition: 0.3s;
   border-bottom: solid;
