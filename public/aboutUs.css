@@ -1,0 +1,155 @@
+.caption::after {
+}
+
+.organize-card {
+  transition: 0.3s;
+  border: dashed;
+  border-width: 3px;
+  border-color: transparent;
+}
+
+.organize-card:hover {
+  border-color: var(--ct-orange);
+}
+
+#socialMediaDepartment .organize-card:hover {
+  border-color: var(--ct-orange);
+}
+
+#contentDepartment .organize-card:hover {
+  border-color: var(--ct-pink);
+}
+
+#humanResourcesDepartment .organize-card:hover {
+  border-color: var(--ct-dark-blue);
+}
+
+#eventPlanningDepartment .organize-card:hover {
+  border-color: var(--bs-success);
+}
+
+.organize-area {
+  width: 200px;
+  height: 200px;
+}
+
+.organize-img-area {
+  width: 180px;
+  height: 180px;
+}
+
+.organize-img-area img {
+  width: 180px;
+  height: 180px;
+}
+
+.organize-leader {
+  width: 250px;
+  height: 250px;
+}
+
+.organize-leader .organize-img-area {
+  width: 227px;
+  height: 227px;
+}
+
+.organize-leader .organize-img-area img {
+  width: 227px;
+  height: 227px;
+}
+
+.club-area {
+  width: 350px;
+  height: 350px;
+}
+
+.club-img-area {
+  width: 314px;
+  height: 314px;
+}
+
+.club-img-area img {
+  min-width: 314px;
+  min-height: 314px;
+}
+
+#btn-toggle-social-media.collapsed {
+  opacity: 0.5;
+  border-color: transparent;
+}
+
+#btn-toggle-social-media.collapsed:hover {
+  opacity: 0.7;
+  border-color: transparent;
+}
+
+#btn-toggle-social-media {
+  border-color: var(--ct-orange);
+  color: var(--ct-orange);
+  opacity: 1;
+  transition: 0.3s;
+  border-bottom: solid;
+  border-width: 5px;
+}
+
+#btn-toggle-content.collapsed {
+  opacity: 0.5;
+  border-color: transparent;
+}
+
+#btn-toggle-content.collapsed:hover {
+  opacity: 0.7;
+  border-color: transparent;
+}
+
+#btn-toggle-content {
+  border-color: var(--ct-pink);
+  color: var(--ct-pink);
+  opacity: 1;
+  transition: 0.3s;
+  border-bottom: solid;
+  border-width: 5px;
+}
+
+#btn-toggle-event-planning.collapsed {
+  opacity: 0.5;
+  border-color: transparent;
+}
+
+#btn-toggle-event-planning.collapsed:hover {
+  opacity: 0.7;
+  border-color: transparent;
+}
+
+#btn-toggle-event-planning {
+  border-color: var(--bs-success);
+  color: var(--bs-success);
+  opacity: 1;
+  transition: 0.3s;
+  border-bottom: solid;
+  border-width: 5px;
+}
+
+#btn-toggle-human-resources.collapsed {
+  opacity: 0.5;
+  border-color: transparent;
+}
+
+#btn-toggle-human-resources.collapsed:hover {
+  opacity: 0.7;
+  border-color: transparent;
+}
+
+#btn-toggle-human-resources {
+  border-color: var(--ct-dark-blue);
+  color: var(--ct-dark-blue);
+  opacity: 1;
+  transition: 0.3s;
+  border-bottom: solid;
+  border-width: 5px;
+}
+
+.department {
+  animation: fadeIn;
+  animation-duration: 0.4s;
+}

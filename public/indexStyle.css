@@ -1,0 +1,339 @@
+body {
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 300px;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.mb-250 {
+  margin-bottom: -200px;
+}
+
+#rect1 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 100px;
+  right: 0;
+  transform: rotate(45deg) translate(65%, 0%);
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+#rect2 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 740px;
+  left: -100px;
+
+  animation-name: fadeInLeft;
+  animation-duration: 2s;
+}
+
+#circle1 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 980px;
+  right: -150px;
+  opacity: 0.2;
+
+  animation-name: slideInRight;
+  animation-duration: 2s;
+}
+
+#triangle1 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 2140px;
+  left: 150px;
+  opacity: 0.1;
+
+  animation-name: slideInLeft;
+  animation-duration: 2s;
+}
+
+#rect3 {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 2270px;
+  right: -40px;
+  opacity: 0.2;
+  animation-name: slideInRight;
+  animation-duration: 2s;
+}
+
+#rect4 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 3600px;
+  left: -350px;
+  transform: rotate(45deg) translate(65%, 0%);
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+#circle2 {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  top: 3130px;
+  right: -400px;
+  opacity: 0.05;
+
+  animation-name: slideInRight;
+  animation-duration: 3s;
+}
+
+#figureShadow1 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 100px;
+  left: 0;
+  transform: rotate(45deg) translate(-65%, 0%);
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+#triangle2 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 4480px;
+  right: 150px;
+  transform: rotate(180deg);
+  opacity: 0.1;
+}
+
+#header {
+  background: url(assets/backgoround-dot.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+
+#section1-bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90vw;
+}
+
+#speakerArea {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.guest-area {
+  width: 400px;
+  height: 400px;
+}
+
+#section23-bg {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+#target {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#timeAndPlace {
+  padding-top: 100px;
+}
+
+.timeline {
+  min-width: 151px;
+  margin-right: 1rem;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 150px;
+  width: 2px;
+  top: 0;
+  bottom: 0;
+  background-color: #9fadbb;
+}
+
+.timeline-badge {
+  background-color: var(--bs-white);
+}
+
+#helperArea {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.guest-area {
+  width: 300px;
+  height: 300px;
+}
+
+#prizes {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.prizes-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  font-size: 40px;
+  font-weight: bolder;
+  color: var(--bs-white);
+}
+
+#prizesGroup {
+  margin-top: 180px;
+}
+
+#prize1 {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.prize1-bg-color {
+  background-color: #3b2702;
+}
+
+.prize1-color {
+  color: #f8b93a;
+}
+
+#prize2 {
+  margin-top: 60px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.prize2-bg-color {
+  background-color: #323434;
+}
+
+.prize2-color {
+  color: #8d9091;
+}
+
+#prize3 {
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.prize3-bg-color {
+  background-color: #110403;
+}
+
+.prize3-color {
+  color: #d98c59;
+}
+
+#prizeEncourage {
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.prizeEncourage-bg-color {
+  background-color: #110403;
+}
+
+.prizeEncourage-color {
+  color: #d98c59;
+}
+
+.small-icon-size {
+  min-width: 20px;
+}
+
+#fireworks2 {
+  position: absolute;
+  top: -75px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.4;
+
+  animation-name: zoomIn;
+  animation-duration: 1.5s;
+}
+
+#fireworks2 > img {
+  width: 125px;
+  height: 125px;
+}
+
+#sponsor img {
+  width: 6rem;
+  height: 6rem;
+}
+
+#giftbox1 {
+  position: absolute;
+  top: 280px;
+  right: 250px;
+  width: 100px;
+
+  animation-name: fadeInRight;
+  animation-duration: 2s;
+}
+
+#giftbox2 {
+  position: absolute;
+  top: 630px;
+  right: 50px;
+  width: 200px;
+
+  opacity: 0;
+  animation-name: fadeInRight;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+#fireworks1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 300px;
+
+  animation-name: zoomIn;
+  animation-duration: 1s;
+}
+
+#trophy {
+  position: absolute;
+  top: 650px;
+  left: 240px;
+  width: 80px;
+
+  opacity: 0;
+  animation-name: fadeInLeft;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+#missHoaInfo {
+  animation: fadeInDown;
+  animation-duration: 0.5s;
+}
+
+.guest-area.trainer {
+  width: 150px;
+  height: 150px;
+}

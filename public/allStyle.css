@@ -1,0 +1,129 @@
+:root {
+  --ct-dark-blue: #003049;
+  --ct-orange: #f77f00;
+  --ct-orange-light: #fcbf49;
+  --ct-pink: #d62828;
+  --ct-orange-dark: #c74e04;
+
+  --ct-orange-active: #e85d04;
+  --ct-pink-active: #9d0208;
+
+  --ct-orange-hover-light: rgba(0, 48, 73, 0.05);
+}
+
+.rect-container {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.text-orange {
+  color: var(--ct-orange) !important;
+}
+
+.text-orange-light {
+  color: var(--ct-orange-light) !important;
+}
+
+.text-dark-blue {
+  color: var(--ct-dark-blue) !important;
+}
+
+.text-pink {
+  color: var(--ct-pink) !important;
+}
+
+.bg-orange {
+  background-color: var(--ct-orange) !important;
+}
+
+.bg-dark-blue {
+  background-color: var(--ct-dark-blue) !important;
+}
+
+.btn-orange {
+  color: white;
+  background-color: var(--ct-orange);
+  border-color: var(--ct-orange);
+}
+
+.btn-orange:hover {
+  color: white;
+  background-color: var(--ct-orange-active);
+  border-color: var(--ct-orange-active);
+}
+
+.btn-pink {
+  color: white;
+  background-color: var(--ct-pink);
+  border-color: var(--ct-pink);
+}
+
+.btn-pink:hover {
+  color: white;
+  background-color: var(--ct-pink-active);
+  border-color: var(--ct-pink-active);
+}
+
+.btn-footer {
+  color: white;
+  background-color: transparent;
+  transition: 0.2s;
+}
+
+.btn-footer:hover {
+  color: var(--ct-orange-light);
+}
+
+.btn-outline-primary {
+  color: var(--ct-orange);
+  border-color: var(--ct-orange);
+}
+
+.btn-outline-primary:hover {
+  color: white;
+  background-color: var(--ct-orange-active);
+  border-color: var(--ct-orange-active);
+}
+
+.cs-btn-text-opacity {
+  transition: 0.2s;
+  padding-bottom: 0.25rem;
+  border-width: 0px;
+}
+
+.cs-btn-text-opacity:hover {
+  border-bottom: solid;
+  border-width: 3px;
+}
+
+.cs-btn-text-opacity.btn-orange {
+  border-color: var(--ct-orange);
+  color: var(--ct-orange);
+  background-color: transparent;
+}
+
+.cs-btn-text-opacity.btn-pink {
+  border-color: var(--ct-pink);
+  color: var(--ct-pink);
+  background-color: transparent;
+}
+
+.cs-btn-more-information {
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+.cs-btn-more-information:hover {
+  opacity: 1;
+}
+
+.more-information-area {
+  animation-name: fadeInDown;
+  animation-duration: 0.5s;
+}
+
+.border-orange {
+  border-color: var(--ct-orange) !important;
+}

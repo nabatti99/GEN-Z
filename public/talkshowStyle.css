@@ -1,0 +1,75 @@
+#headerImg {
+  width: 100%;
+  background-image: url(assets/talkshow.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: var(--ct-orange-dark);
+  background-blend-mode: multiply;
+}
+
+#speakerArea {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.guest-area {
+  width: 400px;
+  height: 400px;
+}
+
+@media (min-width: 768px) {
+  .guest-area {
+    margin-top: -200px;
+  }
+}
+
+#ticketArea {
+  border: dashed;
+  border-color: var(--ct-orange);
+}
+
+#ticketArea #earlyBirth {
+  cursor: pointer;
+}
+
+#circle1 {
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  top: 200px;
+  right: -400px;
+  opacity: 0.2;
+}
+
+#event {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 200px;
+  right: 10%;
+}
+
+#event2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  left: 8%;
+}
+
+#chronometer {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 380px;
+  left: 10%;
+}
+
+@media (min-width: 768px) {
+  #img-bg {
+    background: url(assets/backgoround-towel-wheel.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+  }
+}
