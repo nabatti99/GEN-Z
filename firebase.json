@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "gen-z",
     "public": "public",
     "site": "generation-z-hugoclub",
     "ignore": [
